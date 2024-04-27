@@ -1,7 +1,76 @@
+{
+    Margin:0;
+    padding:0;
+ } 
+
+
+title{color: black;}
 body {
     color:blue
 }
-title{color: black;}
-p{color: red;}
+header {
+background-color: blueviolet;
+}
+ul {
+    list-style-type: none;
+   }
+main{
+    background-color: aquamarine;
+    text-align: center
+}
+
+
+main h2{ 
+    font-family: "Sacramento", cursive;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 1.5rem;
+  }
+
+
+  .ttt{color: chocolate;}
+h1{color: black;
+    font-family: "Comic Sans MS", sans-serif;
+    font-size: 1.5rem;
+}
 h2{color: blueviolet;}
-footer{padding: 1rem;color: darkgoldenrod;}
+h3{color: gold;}
+
+
+p{color: burlywood;}
+
+
+.roja{color: red;
+font-weight: 900;
+font-style: italic;}
+
+
+.verde{color: green;}
+
+
+#marron{color: brown;
+font-size: 0.6rem;}
+
+
+main article h4 {
+    color:deeppink
+  line-height: 1.6rem
+}   
+
+
+.uruguay {text-decoration: line-through}
+
+
+ol{
+background-color: cornflowerblue;
+background-position: right;
+}
+
+
+footer{
+    padding: 0.9rem;
+  tps://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOVCbrihp4J374w01675d  background-image: htQ-pGSRi2rSOe0nw&s;
+    background-size: cover;
+}
+
+
