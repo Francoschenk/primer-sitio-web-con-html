@@ -26,9 +26,7 @@ main h2{
     font-weight: 800;
     font-size: 1.5rem;
   }
-
-
-  .ttt{color: chocolate;}
+  
 h1{color: black;
     font-family: "Comic Sans MS", sans-serif;
     font-size: 1.5rem;
@@ -59,7 +57,17 @@ main article h4 {
 
 
 .uruguay {text-decoration: line-through}
-
+.paises{
+text-align: center;
+background-color: crimson;
+margin: 1rem 0.5rem 1rem 0.5rem;
+padding: 10px 4px 4px 4px;
+border-top: solid 5px;
+border-right: solid 30px;
+border-bottom: solid 20px ;
+border-left: solid 12px ;
+border-radius: 1rem;
+}
 
 ol{
 background-color: cornflowerblue;
