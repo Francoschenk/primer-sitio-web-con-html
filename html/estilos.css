@@ -1,6 +1,7 @@
 {
     Margin:0;
     padding:0;
+    box-sizing:border-box;
  } 
 
 
@@ -10,6 +11,9 @@ body {
 }
 header {
 background-color: blueviolet;
+}
+.menu {
+  font-size: larger;
 }
 ul {
     list-style-type: none;
@@ -55,9 +59,32 @@ main article h4 {
   line-height: 1.6rem
 }   
 
+.contenido{
+  background-color: antiquewhite;
+  padding: 2rem;
+  width: 80%;
+  float: left;
+}
+.contenido_imagen{
+
+}
+.contenido_sugerencias{
+  background-color: darkcyan;
+  border: solid 8px black;
+  border-top: solid 6px red;
+  line-height: 2rem;
+  padding: 2rem;
+  width: 30%;
+  float: right;
+
+}
+
+.sugerencias_libros img{
+width: 100%;
+}
 
 .uruguay {text-decoration: line-through}
-.paises{
+.boxmodel{
 text-align: center;
 background-color: crimson;
 margin: 1rem 0.5rem 1rem 0.5rem;
@@ -67,18 +94,26 @@ border-right: solid 30px;
 border-bottom: solid 20px ;
 border-left: solid 12px ;
 border-radius: 1rem;
+overflow: auto;
 }
 
 ol{
 background-color: cornflowerblue;
 background-position: right;
+border-radius: 1rem;
+border-top: 5px;
+border-right: 11px;
+border-bottom: 5px;
+border-left: 11px;
+border-style: solid;
 }
 
 
 footer{
+  background-color: aquamarine;
     padding: 0.9rem;
-  tps://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOVCbrihp4J374w01675d  background-image: htQ-pGSRi2rSOe0nw&s;
     background-size: cover;
+    clear: both;
 }
 
 
