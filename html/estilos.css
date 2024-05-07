@@ -1,20 +1,39 @@
-*{
+{
     Margin:0;
     padding:0;
     box-sizing:border-box;
  } 
 html{
-  font-size: 10px;
+  font-size: 16px;
 }
 
 title{color: black;}
+
+#grid {
+  display: grid; 
+  grid-template-areas: 
+  "menu menu"
+  "comienzo publicidad"
+  "contenido publicidad"
+  "box publicidad"
+  "flexboxx publicidad"
+  "footer footer"
+  ;
+  grid-template-columns: 80% 20%;
+  grid-template-rows: 70px auto auto auto auto 100px;
+}
+section#comienzo{grid-area: comienzo;}
+section#box{grid-area: box;}
+section#flexboxx{grid-area: flexboxx;}
+
+
+
 body {
     color:blue
 }
-header {
-background-color: blueviolet;
-}
 #menu {
+  background-color: blueviolet;
+grid-area: menu;
   font-size: larger;
   display: flex;
   text-align: center;
@@ -63,28 +82,12 @@ main article h4 {
   line-height: 1.6rem
 }   
 
-.contenido{
+section#contenido{
+  grid-area: contenido;
   background-color: antiquewhite;
   padding: 2rem;
   width: 80%;
   float: left;
-}
-.contenido_imagen{
-
-}
-.contenido_sugerencias{
-  background-color: darkcyan;
-  border: solid 8px black;
-  border-top: solid 6px red;
-  line-height: 2rem;
-  padding: 2rem;
-  width: 30%;
-  float: right;
-
-}
-
-.sugerencias_libros img{
-width: 100%;
 }
 
 .messi{
@@ -138,9 +141,23 @@ background-color:blueviolet;
   background-color: yellow;
 }
 
-footer{
-  background-color: aquamarine;
-    padding: 0.9rem;
+#publicidad{
+  grid-area: publicidad;
+  display: flex;
+  flex-direction: column;
+    background-color: darkcyan;
+    border: solid 8px black;
+    border-top: solid 6px red;
+  }
+  
+.sugerencias_libros img{
+width: 100%;
+}
+
+#pie{
+  border: solid 2px black;
+  grid-area: footer;
+  background-color:gray;
     background-size: cover;
     clear: both;
 }
