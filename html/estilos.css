@@ -17,15 +17,16 @@ title{color: black;}
   "contenido publicidad"
   "box publicidad"
   "flexboxx publicidad"
+  "clase6grid publicidad"
   "footer footer"
   ;
   grid-template-columns: 80% 20%;
-  grid-template-rows: 70px auto auto auto auto 100px;
+  grid-template-rows: 140px auto auto auto auto auto 100px;
 }
 section#comienzo{grid-area: comienzo;}
 section#box{grid-area: box;}
 section#flexboxx{grid-area: flexboxx;}
-
+section#clase6grid{grid-area: clase6grid;}
 
 
 body {
