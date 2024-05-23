@@ -1,7 +1,6 @@
 {
     Margin:0;
     padding:0;
-    box-sizing:border-box;
  } 
 html{
   font-size: 16px;
@@ -12,33 +11,84 @@ title{color: black;}
 #grid {
   display: grid; 
   grid-template-areas: 
-  "menu menu"
+  "encabezado encabezado"
   "comienzo publicidad"
   "contenido publicidad"
   "box publicidad"
   "flexboxx publicidad"
-  "clase6grid publicidad"
   "footer footer"
   ;
-  grid-template-columns: 80% 20%;
-  grid-template-rows: 140px auto auto auto auto auto 100px;
+  grid-template-columns: auto 20%;
+  grid-template-rows: 190px auto auto auto auto 100px;
 }
 section#comienzo{grid-area: comienzo;}
 section#box{grid-area: box;}
 section#flexboxx{grid-area: flexboxx;}
-section#clase6grid{grid-area: clase6grid;}
-
 
 body {
     color:blue
 }
-#menu {
-  background-color: blueviolet;
-grid-area: menu;
-  font-size: larger;
-  display: flex;
-  text-align: center;
+#encabezado {
+  grid-area: encabezado;
+background-image: url(https://tse4.mm.bing.net/th?id=OIP.9cRvXsOAZUHW2O-7_k8SBQHaDH&pid=Api&P=0&h=180);
+background-repeat:no-repeat;
+background-size: cover;
+font-size: larger;
+display: flex;
+text-align: center;
+justify-content: center;
+list-style: none;
+width: 100%;
+align-items: center;
 }
+#menusuperior {
+width: 60%;
+display: flex;
+}
+.logo{
+  display: flex;
+  width: 40%;
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.logo img{
+  height: 150px;
+}
+.logo p{color: black;}
+
+/*ver despues como poner el menuu */
+
+.menuu{
+  list-style: none;
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+.menuu ul{
+  display: flex;
+  align-items: baseline;
+  justify-content: space-around;
+}
+.menuu ul li{
+  display: flex;
+  display: inline-block;
+  padding: 15px;
+  font-size: 25px;
+  color: black;
+  border-right-width: thin;
+  border-right-style: solid;
+  border-right-color: black;
+}
+#excep{
+  border-right: none;
+}
+
+/*fin del menuu */
+
 ul {
     list-style-type: none;
     display: inline;
@@ -79,8 +129,8 @@ font-size: 0.6rem;}
 
 
 main article h4 {
-    color:deeppink
-  line-height: 1.6rem
+    color:deeppink;
+  line-height: 1.6rem;
 }   
 
 section#contenido{
@@ -109,10 +159,10 @@ border-radius: 3rem;
 overflow: auto;
 }
 
-ol{
+.calculo{
 background-color: cornflowerblue;
 background-position: right;
-border-radius: 1rem;
+border-radius: 3rem;
 border-top: 5px;
 border-right: 11px;
 border-bottom: 5px;
@@ -149,10 +199,13 @@ background-color:blueviolet;
     background-color: darkcyan;
     border: solid 8px black;
     border-top: solid 6px red;
+    align-items: center;
   }
   
 .sugerencias_libros img{
-width: 100%;
+width: 80%;
+display: flex;
+box-shadow: 5px 5px black;
 }
 
 #pie{
